@@ -22,7 +22,7 @@ namespace Yatush
 
         public void SetMaterial(Shader newShader)
         {
-            rawImage.material = new Material(newShader);
+            rawImage.material.shader = newShader;
         }
         
         [ContextMenu("Set video to vertical")]

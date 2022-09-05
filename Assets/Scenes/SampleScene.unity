@@ -406,7 +406,7 @@ PrefabInstance:
     - target: {fileID: 957619126, guid: 31cf0f082d45fd44cb3087edee83edf7, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 2020982091}
+      objectReference: {fileID: 2100000, guid: 925ac63e0ede9824b9bf03c62a467de2, type: 2}
     - target: {fileID: 595165421070905538, guid: 31cf0f082d45fd44cb3087edee83edf7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -533,7 +533,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1070584942221965241, guid: 31cf0f082d45fd44cb3087edee83edf7, type: 3}
       propertyPath: feedType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1070584942221965241, guid: 31cf0f082d45fd44cb3087edee83edf7, type: 3}
       propertyPath: orientation
@@ -1340,42 +1340,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7ecd7d28fd10584ea2f7d980f4bce7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!21 &1833364109
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Yatush/FullColorVision
-  m_Shader: {fileID: 4800000, guid: 836ca649810ee804ea30eca5648c4b7d, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1927981448
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,39 +1408,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &2020982091
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Yatush/FullColorVision
-  m_Shader: {fileID: 4800000, guid: 836ca649810ee804ea30eca5648c4b7d, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
